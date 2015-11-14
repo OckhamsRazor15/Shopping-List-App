@@ -1,13 +1,30 @@
+body {
+	background-color: #009688;
+
+}
+
 .container {
 	width: 100%;
-	display: flex;
-	flex-direction: column;
+	margin: 20px auto;
+	
 }
 
-h1, h2, form, ul, li{
-	align-self: center;
+h1, h2, form, ul, li, form{
+	margin: 0 auto;
+	color: white;
 }
-
+form{
+	color: black;
+}
+h1, h2, form, li {
+	text-align: center;
+}
 li {
 	list-style: none;
+	text-align: center;
+}
+
+.rmvbutton {
+	color: black;
+	margin-left: 10%;
 }
