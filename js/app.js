@@ -10,9 +10,9 @@ $('form').submit(function(e){
 // crosses out item when checked
 $('.itemlist').on('click', "li.item", function(){
 if ($(this).children().is(":checked")){
-  $(this).parent().css("text-decoration", "line-through");
+  $(this).css("text-decoration", "line-through");
 } else {
-	$(this).parent().css("text-decoration", "none");
+	$(this).css("text-decoration", "none");
 }
 
 });
